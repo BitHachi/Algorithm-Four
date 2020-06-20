@@ -47,11 +47,11 @@ public class BinarySearch {
         System.out.println("whitelist数组已排序：" + Arrays.toString(whitelist));
         // read integer key from standard input; print if not in whitelist
         while (!StdIn.isEmpty()) {
+            //从tinyT.txt中读取数据然后再和tintW.txt的数据进行比较
             int key = StdIn.readInt();
-            //这里只是想看一下key是什么。标准输入的数据是啥
-            System.out.print(key + ",");
+            System.out.print(key + ",");//这句其实不需要  我只是想看看tinyT.txt数据是什么
             if (rank(key, whitelist) == -1)
-                //这里我改了一下，*x*即为tinyT.txt中不再tinyW.txt中的数据
+                //这里我改了一下，*x*即为tinyT.txt中不在tinyW.txt中的数据
                 StdOut.print("*" + key + "*,");
         }
     }

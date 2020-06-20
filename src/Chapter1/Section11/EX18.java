@@ -11,7 +11,7 @@ import edu.princeton.cs.algs4.StdIn;
  * @Description: 练习题1.1.18
  **/
 
-public class EX1_1_18 {
+public class EX18 {
     public static int mystery(int a, int b) {
         if (b == 0) return 0;
         if (b % 2 == 0) return mystery(a + a, b / 2);

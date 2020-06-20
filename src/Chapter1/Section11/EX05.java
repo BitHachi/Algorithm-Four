@@ -9,7 +9,7 @@ package Chapter1.Section11;
  * @Description: 练习题1.1.4
  **/
 
-public class EX1_1_5 {
+public class EX05 {
     public static void main(String[] args) {
         /************  1.1.5  ************/
         double x=0.8,y=1.9;

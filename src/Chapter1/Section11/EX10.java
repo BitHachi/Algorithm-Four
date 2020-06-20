@@ -9,7 +9,7 @@ package Chapter1.Section11;
  * @Description: 练习题1.1.10
  **/
 
-public class EX1_1_10 {
+public class EX10 {
     public static void main(String[] args) {
         /************  1.1.10  ************/
         //会报没有初始化数组的错误

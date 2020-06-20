@@ -9,7 +9,7 @@ package Chapter1.Section11;
  * @Description:练习题1.1.12
  **/
 
-public class EX1_1_12 {
+public class EX12 {
     public static void main(String[] args) {
         /************  1.1.12  ************/
         int[] a = new int[10];

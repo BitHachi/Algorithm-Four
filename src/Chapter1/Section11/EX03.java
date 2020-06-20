@@ -9,7 +9,7 @@ package Chapter1.Section11;
  * @Description: 练习题1.1.3
  **/
 
-public class EX1_1_3 {
+public class EX03 {
     public static void main(String[] args) {
         /************  1.1.3  ************/
         if(args[0].equals(args[1])&&args[1].equals(args[2]))

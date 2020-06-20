@@ -11,7 +11,7 @@ import edu.princeton.cs.algs4.StdOut;
  * @Description: 练习题1.1.19
  **/
 
-public class EX1_1_19 {
+public class EX19 {
     public static long[] F(int N) {
         long[] fibonacci = new long[N + 1];
         if (N == 0) {

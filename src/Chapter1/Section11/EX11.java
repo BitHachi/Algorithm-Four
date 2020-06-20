@@ -9,7 +9,7 @@ package Chapter1.Section11;
  * @Description: 练习题1.1.11
  **/
 
-public class EX1_1_11 {
+public class EX11 {
     public static void main(String[] args) {
         /************  1.1.11  ************/
         boolean[][] b = new boolean[3][3];

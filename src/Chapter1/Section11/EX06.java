@@ -11,7 +11,7 @@ import edu.princeton.cs.algs4.StdOut;
  * @Description: 练习题1.1.6
  **/
 
-public class EX1_1_6 {
+public class EX06 {
     public static void main(String[] args) {
         /************  1.1.6  ************/
         int f = 0;

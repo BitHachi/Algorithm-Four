@@ -11,7 +11,7 @@ import edu.princeton.cs.algs4.StdIn;
  * @Description: 练习题1.1.21
  **/
 
-public class EX1_1_21 {
+public class EX21 {
     public static void main(String[] args) {
         System.out.print("Please input count:");
         int n = StdIn.readInt();

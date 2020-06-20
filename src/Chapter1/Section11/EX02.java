@@ -9,7 +9,7 @@ package Chapter1.Section11;
  * @Description: 练习题1.1.2
  **/
 
-public class EX1_1_2 {
+public class EX02 {
     public static void main(String[] args) {
         /************  1.1.2  ************/
         System.out.println((1+2.236)/2);

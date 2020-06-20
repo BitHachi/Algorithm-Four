@@ -9,7 +9,7 @@ package Chapter1.Section11;
  * @Description: 练习题1.1.20
  **/
 
-public class EX1_1_20 {
+public class EX20 {
     public static double ln(int N) {
         if (N == 0) {
             return 0;

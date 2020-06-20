@@ -11,7 +11,7 @@ import edu.princeton.cs.algs4.StdRandom;
  * @Description: 练习题1.1.15
  **/
 
-public class EX1_1_15 {
+public class EX15 {
     public static void main(String[] args) {
         /************  1.1.15  ************/
         int[] a = new int[StdRandom.uniform(8, 16)];

@@ -9,7 +9,7 @@ package Chapter1.Section11;
  * @Description: 练习题1.1.14
  **/
 
-public class EX1_1_14 {
+public class EX14 {
     public static void main(String[] args) {
         /************  1.1.14  ************/
         System.out.println(lg(1));

@@ -11,7 +11,7 @@ import edu.princeton.cs.algs4.StdOut;
  * @Description: 练习题1.1.7
  **/
 
-public class EX1_1_7 {
+public class EX07 {
     public static void main(String[] args) {
         /************  1.1.7  ************/
         double t = 9.0;

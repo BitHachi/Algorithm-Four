@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdIn;
 /**
  * @Program: Algorithm
  * @ClassName: EX26
- * @Author: Mr.BitHachi
+ * @Author: Mr.BitHachi-1.txt
  * @CreateTime: 2020-06-21 18:08
  * @Version: V1.0
  * @Description: 练习题1.1.26

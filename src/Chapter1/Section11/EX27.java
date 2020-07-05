@@ -3,7 +3,7 @@ package Chapter1.Section11;
 /**
  * @Program: Algorithm
  * @ClassName: EX27
- * @Author: Mr.BitHachi
+ * @Author: Mr.BitHachi-1.txt
  * @CreateTime: 2020-06-21 18:30
  * @Version: V1.0
  * @Description: 练习题1.1.27

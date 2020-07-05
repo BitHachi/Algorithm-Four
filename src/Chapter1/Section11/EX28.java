@@ -8,7 +8,7 @@ import java.util.Arrays;
 /**
  * @Program: Algorithm
  * @ClassName: EX28
- * @Author: Mr.BitHachi
+ * @Author: Mr.BitHachi-1.txt
  * @CreateTime: 2020-06-27 21:12
  * @Version: V1.0
  * @Description: 练习题1.1.28

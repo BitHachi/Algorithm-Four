@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdRandom;
 /**
  * @Program: Algorithm
  * @ClassName: EX1_1_15
- * @Author: Mr.BitHachi
+ * @Author: Mr.BitHachi-1.txt
  * @CreateTime: 2020-06-14 23:32
  * @Version: V1.0
  * @Description: 练习题1.1.15

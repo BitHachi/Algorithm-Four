@@ -61,39 +61,32 @@ public class EX33 {
          */
         System.out.println("矩阵a和b的积：");
         double[][] matrix = Matrix.mult(a, b);
-        for(double []r :  matrix){
-            for(double rv : r)
-            System.out.print(rv+ " _ ");
-            System.out.println();
+        for(double []d :  matrix) System.out.println(Arrays.toString(d));
+
+        /**
+         * 转置矩阵
+         */
+        System.out.println("a转置矩阵:");
+        matrix = Matrix.transpose(a);
+        for(double []d :  matrix) System.out.println(Arrays.toString(d));
+
+        /**
+         * 矩阵和向量之积
+         */
+        System.out.println("a矩阵和向量x的积:");
+        double[] array = Matrix.mult(a, x);//这里请诸位看的时候把向量x看成5×1矩阵进行计算，结果为3×1矩阵
+        if (array != null) {
+             System.out.println(Arrays.toString(array));
         }
 
-
-//        matrix = transpose(a);
-//        if (matrix != null) {
-//            System.out.println("transpose(a):");
-//            for (int i = 0; i < matrix.length; i++) {
-//                for (int j = 0; j < matrix[i].length; j++) {
-//                    System.out.print(matrix[i][j] + " ");
-//                }
-//                System.out.println();
-//            }
-//        }
-//        double[] array = mult(a, x);
-//        if (array != null) {
-//            System.out.println("mult(a, x):");
-//            for (int i = 0; i < array.length; i++) {
-//                System.out.print(array[i] + " ");
-//            }
-//            System.out.println();
-//        }
-//        array = mult(y, a);
-//        if (array != null) {
-//            System.out.println("mult(y, a):");
-//            for (int i = 0; i < array.length; i++) {
-//                System.out.print(array[i] + " ");
-//            }
-//            System.out.println();
-//        }
+        /**
+         * 向量和矩阵之积
+         */
+        System.out.println("向量y和矩阵b之积:");
+        array = Matrix.mult(y, b);
+        if (array != null) {
+            System.out.println(Arrays.toString(array));
+        }
     }
 }
 

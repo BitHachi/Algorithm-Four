@@ -121,7 +121,7 @@ public class Interval2D {
         double xmax = .5;
         double ymin = .2;
         double ymax = .8;
-        int trials = 10000;
+        int trials = 1000;
 
         Interval1D xInterval = new Interval1D(xmin, xmax);//x间距0.3
         Interval1D yInterval = new Interval1D(ymin, ymax);//y间距0.6

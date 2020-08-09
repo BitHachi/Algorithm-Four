@@ -26,6 +26,7 @@ public class DG_BinarySearch {
             return mid;
         }
     }
+
     public static void main(String[] args) {
         int[] a = { 1, 2, 3, 4, 6, 7, 8, 9, 12 };
         int key = 6;

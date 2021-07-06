@@ -16,26 +16,27 @@ import edu.princeton.cs.algs4.StdDraw;
 
 public class EX10 {
     public static void main(String[] args) {
+        // N=20 max=5
         VisualCounter counter = new VisualCounter(20, 5);
 
         for (int i = 0; i < 10; i++) {
-            counter.increment();
+            counter.increment();//加操作
         }
         for (int i = 0; i < 15; i++) {
-            counter.decrement();
+            counter.decrement();//减操作
         }
         for (int i = 0; i < 10; i++) {
-            counter.increment();
+            counter.increment();//加操作
         }
         System.out.println(counter.getCount());
     }
 }
 
  class VisualCounter {
-    private int count;
-    private int n;
-    private int N;
-    private int max;
+    private int count;//判断Y轴上下限以及画点
+    private int n;//统计是否超过操作的最大次数
+    private int N;//操作最大次数
+    private int max;//最大绝对值
 
     //n指定了操作的最大次数，max指定了计数器的最大绝对值
     public VisualCounter(int n, int max) {
@@ -43,10 +44,10 @@ public class EX10 {
         this.max = max;
         count = 0;
         this.n = 0;
-        StdDraw.setXscale(0, N);
-        StdDraw.setYscale(-max, max);
-        StdDraw.setPenRadius(0.01);
-        StdDraw.point(0, 0);
+        StdDraw.setXscale(0, N);//设置X轴范围
+        StdDraw.setYscale(-max, max);//设置Y轴范围
+        StdDraw.setPenRadius(0.01);//设置画笔大小
+        StdDraw.point(0, 0);//画出原点
     }
 
     public void increment() {
